@@ -1,0 +1,210 @@
+/* 
+// Metacrafters - Beginning Javascript
+//
+// This is a javascript playground for testing your javascript code!
+// When you are ready to test, simply right click and select "Run Code"
+// to see the result print below. If you have more then one snippet of code,
+// you can highlight the code you want to test, and then right click and select "Run Code"
+*/
+
+// Enter your code below this line
+
+// Code example
+const anAdjective = "awesome!";
+let ourStr = "Metacrafters is ";
+ourStr += anAdjective;
+
+
+
+console.log(ourStr)
+
+
+console.log("Alan Peter".length);
+
+function foo(x) {
+    if (x < 1) {
+      return "Less than one";
+    } else if (x < 2) {
+      return "Less than two";
+    } else {
+      return "Greater than or equal to two";
+    }
+  }
+
+  function bar(x) {
+    if (x < 2) {
+      return "Less than two";
+    } else if (x < 1) {
+      return "Less than one";
+    } else {
+      return "Greater than or equal to two";
+    }
+  }
+
+console.log(foo(0));
+console.log(bar(0));
+
+
+switch (lowercaseLetter) {
+    case "a":
+      console.log("A");
+      break;
+    case "b":
+      console.log("B");
+      break;
+  }
+
+  switch (num) {
+    case 1:
+      One;
+      break;
+    case 2:
+      Two;
+      break;
+    default:
+      Infinity;
+      break;
+  }
+  
+  function findGreater(a, b) {
+    return a > b ? "a is greater" : "b is greater or equal";
+  }
+
+console.log(findGreater(2,3));
+
+
+function findGreaterOrEqual(a, b) {
+    return (a === b) ? "a and b are equal" 
+      : (a > b) ? "a is greater" 
+      : "b is greater";
+  }
+
+  console.log(findGreaterOrEqual(23,45));
+  
+  const ourArray = [50, 40, 30];
+  ourArray[0] = 15;
+
+  console.log(ourArray)
+
+  const arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14]
+  ];
+  
+  const subarray = arr[3];
+  const nestedSubarray = arr[3][0];
+  const element = arr[3][0][1];
+
+  console.log(element);
+
+  const arr1 = [1, 2, 3];
+arr1.push(4);
+
+const arr2 = ["Stimpson", "J", "cat"];
+arr2.push(["happy", "joy"]);
+
+console.log(arr1);
+console.log(arr2);
+
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+
+const ourArray = ["Stimpson", "J", ["cat"]];
+const removedFromOurArray = ourArray.shift();
+
+console.log(removedFromOurArray);
+console.log(ourArray);
+
+const ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift();
+ourArray.unshift("Happy");
+
+console.log(ourArray);
+
+const cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+
+console.log(cat);
+
+const myObj = {
+  "Space Name": "Kirk",
+  "More Space": "Spock",
+  "NoSpace": "USS Enterprise"
+};
+
+console.log(myObj["Space Name"]);
+console.log(myObj['More Space']);
+console.log(myObj["NoSpace"]);
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.bark = "bow-wow";
+
+console.log(ourDog);
+
+function myTest() {
+  const loc = "foo";
+  console.log(loc);
+}
+
+myTest();
+console.log(loc);
+
+const someVar = "Hat";
+
+function myFun() {
+  const someVar = "Head";
+  return someVar;
+}
+
+console.log(myFun());
+
+function isEqual(a, b) {
+  return a === b;
+}
+
+console.log(isEqual(2,2));
+
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+console.log(myFun());
+
+const ourArray = [];
+let i = 0;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+console.log(ourArray);
+
+const ourArray = [];
+
+for (let i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+console.log(ourArray);
+
+const arr = [10, 9, 8, 7, 6];
+
+for (let i = 0; i < arr.length; i++) {
+   console.log(arr[i]);
+}
